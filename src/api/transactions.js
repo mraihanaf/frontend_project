@@ -1,7 +1,7 @@
 import axios from "axios";
 import api from "../utils/expiredApi";
 
-const API_URL = "https://budgetin.rainetwork.my.id/api/transactions";
+const API_URL = "https://budgetin-backend.rainetwork.my.id/api/transactions";
 
 
 //dapet semua data

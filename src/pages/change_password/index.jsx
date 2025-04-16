@@ -27,7 +27,7 @@ function ChangePassword() {
 
     try {
       const response = await axios.post(
-        "https://budgetin.rainetwork.my.id/api/auth/change-password",
+        "https://budgetin-backend.rainetwork.my.id/api/auth/change-password",
         {
           password,
         }

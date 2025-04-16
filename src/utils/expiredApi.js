@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Buat instance Axios
 const expiredApi = axios.create({
-  baseURL: "https://budgetin.rainetwork.my.id/api",
+  baseURL: "https://budgetin-backend.rainetwork.my.id/api",
   headers: {
     "Content-Type": "application/json",
   },

@@ -4,7 +4,7 @@ import api from "../utils/expiredApi";
 export const register = async (name, email, phone, password) => {
   try {
     const response = await axios.post(
-      "https://budgetin.rainetwork.my.id/api/auth/register",
+      "https://budgetin-backend.rainetwork.my.id/api/auth/register",
       {
         name,
         email,
@@ -25,7 +25,7 @@ export const register = async (name, email, phone, password) => {
 };
 export const login = async (email, password) => {
   try {
-    const response = await axios.post("https://budgetin.rainetwork.my.id/api/auth/login", {
+    const response = await axios.post("https://budgetin-backend.rainetwork.my.id/api/auth/login", {
       email,
       password,
     });
@@ -43,7 +43,7 @@ export const logout = async () => {
     if (!token) throw new Error("No token found");
 
     const response = await api.post(
-      "https://budgetin.rainetwork.my.id/api/auth/logout",
+      "https://budgetin-backend.rainetwork.my.id/api/auth/logout",
       {},
       {
         headers: {

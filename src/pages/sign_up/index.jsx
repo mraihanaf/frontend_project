@@ -44,7 +44,7 @@ function Sign_Up() {
   }, []);
 
   const handleGoogleSignIn = () => {
-    window.location.href = "https://budgetin.rainetwork.my.id/auth-google-redirect";
+    window.location.href = "https://budgetin-backend.rainetwork.my.id/auth-google-redirect";
   };
 
   return (

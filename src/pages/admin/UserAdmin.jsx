@@ -17,7 +17,7 @@ const UserAdmin = () => {
     setLoading(true);
     try {
       const token = localStorage.getItem("token");
-      const response = await api.get("https://budgetin.rainetwork.my.id/api/admin/users", {
+      const response = await api.get("https://budgetin-backend.rainetwork.my.id/api/admin/users", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -38,7 +38,7 @@ const UserAdmin = () => {
     try {
       const token = localStorage.getItem("token");
       await api.patch(
-        `https://budgetin.rainetwork.my.id/api/admin/users/${id}/deactivate`,
+        `https://budgetin-backend.rainetwork.my.id/api/admin/users/${id}/deactivate`,
         {},
         {
           headers: {
