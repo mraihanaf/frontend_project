@@ -54,7 +54,7 @@ const LoginForm = () => {
 
   // Handle Login dengan Google
   const handleGoogleLogin = () => {
-    window.location.href = "http://localhost:8000/auth-google-redirect";
+    window.location.href = "https://budgetin.rainetwork.my.id/auth-google-redirect";
   };
 
   return (

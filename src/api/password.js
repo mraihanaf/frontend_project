@@ -3,7 +3,7 @@ import axios from "axios";
 export const resetPassword = async (email) => {
   try {
     const response = await axios.post(
-      "http://localhost:8000/api/password/forgot",
+      "https://budgetin.rainetwork.my.id/api/password/forgot",
       {
         email,
       },

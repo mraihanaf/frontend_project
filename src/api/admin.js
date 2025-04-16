@@ -1,7 +1,7 @@
 import axios from "axios";
 import api from "../utils/expiredApi";
 
-const API_URL = "http://localhost:8000/api/admin";
+const API_URL = "https://budgetin.rainetwork.my.id/api/admin";
 const token = localStorage.getItem("token");
 
 export const getUsers = async () => {

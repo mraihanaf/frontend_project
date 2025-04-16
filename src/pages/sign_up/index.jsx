@@ -44,7 +44,7 @@ function Sign_Up() {
   }, []);
 
   const handleGoogleSignIn = () => {
-    window.location.href = "http://localhost:8000/auth-google-redirect";
+    window.location.href = "https://budgetin.rainetwork.my.id/auth-google-redirect";
   };
 
   return (
